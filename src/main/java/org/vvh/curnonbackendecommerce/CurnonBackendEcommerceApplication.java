@@ -7,4 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CurnonBackendEcommerceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CurnonBackendEcommerceApplication.class, args
+        SpringApplication.run(CurnonBackendEcommerceApplication.class, args);
+    }
+
+}

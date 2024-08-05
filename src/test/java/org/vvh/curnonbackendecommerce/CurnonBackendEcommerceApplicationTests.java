@@ -8,3 +8,6 @@ class CurnonBackendEcommerceApplicationTests {
 
     @Test
     void contextLoads() {
+    }
+
+}
