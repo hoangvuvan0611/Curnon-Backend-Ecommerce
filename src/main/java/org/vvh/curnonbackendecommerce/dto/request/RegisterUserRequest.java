@@ -1,4 +1,4 @@
-package org.vvh.curnonbackendecommerce.dto.user;
+package org.vvh.curnonbackendecommerce.dto.request;
 
 import lombok.*;
 

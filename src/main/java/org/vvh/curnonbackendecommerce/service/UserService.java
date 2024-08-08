@@ -1,7 +1,6 @@
 package org.vvh.curnonbackendecommerce.service;
 
-import org.springframework.stereotype.Service;
-import org.vvh.curnonbackendecommerce.dto.user.RegisterUserRequest;
+import org.vvh.curnonbackendecommerce.dto.request.RegisterUserRequest;
 import org.vvh.curnonbackendecommerce.entity.User;
 
 public interface UserService {

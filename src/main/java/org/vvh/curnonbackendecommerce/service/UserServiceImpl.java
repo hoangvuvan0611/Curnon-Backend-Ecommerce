@@ -2,7 +2,7 @@ package org.vvh.curnonbackendecommerce.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.vvh.curnonbackendecommerce.dto.user.RegisterUserRequest;
+import org.vvh.curnonbackendecommerce.dto.request.RegisterUserRequest;
 import org.vvh.curnonbackendecommerce.entity.User;
 import org.vvh.curnonbackendecommerce.enums.UserRole;
 import org.vvh.curnonbackendecommerce.repository.UserRepository;
@@ -28,6 +28,7 @@ public class UserServiceImpl implements UserService{
                 .username(request.getUsername())
                 .email(request.getEmail())
                 .password(request.getPassword())
+                .avatar(new byte[0])
                 .role(UserRole.CUSTOMER)
                 .build();
         userRepository.save(user);

@@ -15,7 +15,3 @@ spring:
       ddl-auto: create
     database: postgresql
     open-in-view: false
-
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect

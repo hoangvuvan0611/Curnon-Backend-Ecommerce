@@ -1,4 +1,4 @@
-package org.vvh.curnonbackendecommerce.dto.user;
+package org.vvh.curnonbackendecommerce.dto.request;
 
 public class GetUserRequest {
     private String username;
