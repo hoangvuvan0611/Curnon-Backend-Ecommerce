@@ -21,7 +21,7 @@ experience, Shopping cart are not saved in the database unless they are logged i
 11. Order status: Show status of order such as payment process, shipping....
 12. Promotions: Allows for promotions or sale to be run.
 ## Overview
-### Database Design
+### Database Design (https://dbdesigner.page.link/omHMfsfVVKkzAD2E6)
 1. admin_user
    Fields:
    id: Primary key, integer.
