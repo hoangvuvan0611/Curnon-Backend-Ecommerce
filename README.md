@@ -144,3 +144,5 @@ experience, Shopping cart are not saved in the database unless they are logged i
     status: Payment status, varchar.
     create_at: Timestamp when the payment was created.
     update_at: Timestamp when the payment was last updated.
+
+![curnon (1)](https://github.com/user-attachments/assets/e9b3df51-b90e-4fcb-9bfb-6997c32ee32c)
